@@ -115,7 +115,26 @@
 .prod_grid{
   display: grid;
   width: 90%;
-  gap: 40px;
+  gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 30px;
+  margin-left: 60px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.grid-prod{
+  width: 80%;
+  line-height: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px brown;
+}
+.grid-prod h1{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
