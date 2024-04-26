@@ -31,3 +31,43 @@
     flex-direction: row;
     text-decoration: none;
   }
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(255, 243, 245);
+  }
+  .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+  }
+  .heading h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: brown;
+  }
+  .heading p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    color: rgb(158, 67, 67);
+  }
+  .cont_img{
+    width: 99%;
+    margin-left: 5px;
+    height: 600px;
+    background-position: right;
+    justify-content: right;
+    text-align: right;
+    
+  }
