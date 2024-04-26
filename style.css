@@ -6,4 +6,19 @@
 .wrapper {
     padding: 10px;
     overflow-x: hidden;
+    display: flex;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #dfa3a3;
+    z-index: 1;
+  }
+  .nav_section{
+    display: flex;
+    flex-direction: row;
   }
