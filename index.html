@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Restaurant App</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- dami section -->
+    <div id="dami-section">
+      <!-- section 1 -->
+      <div style="background-color: rgba(240, 248, 255, 0.543)">
+        <div class="book-section">
+          <div>
+            <img src="images/woner.jpg" alt="" />
+          </div>
+          <div class="book-section-text">
+            <h1>Book a table</h1>
+            <p>
+              Making a reservation at Délicious restaurant is easy and takes
+              just a couple of minutes.
+            </p>
+            <form action="" class="booking-form">
+              <input type="text" placeholder="Number of guests" />
+
+              <div class="type-reservation">
+                <input type="date" />
+                <select id="Meals">
+                  <label for="Meals">Select a Meal</label>
+                  <option value="volvo">Breakfast</option>
+                  <option value="saab">Brunch</option>
+                  <option value="opel">Lunch</option>
+                  <option value="audi">Dinner</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Phone N.0" />
+              <label for="textarea"> Leave a Comment</label>
+              <input type="textarea" style="height: 200px" />
+
+              <button>Book Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <h1>Customer's Reviews</h1>
+        <p>See what our customers are saying about our Restaurant</p>
+
+        <div class="review-card">
+          <div class="review-items">
+            <img src="images/customer1.jpg" alt="" />
+            <p>
+              <b>Hidden Gem!</b> <br />Tucked away on a side street, Curryosity
+              surprised me with its explosion of flavors. Friendly service and a
+              cozy atmosphere make this a new favorite.
+            </p>
+            <p>-Alice</p>
+            <img src="images/rating.png" alt="" />
+          </div>
+          <div class="review-items">
+            <img src="images/customer2.jpg" alt="" />
+            <p>
+              <b>4 Stars!</b> <br />The tasting menu was an incredible
+              journey of flavors - innovative, beautifully presented, and
+              absolutely delicious. The wine pairing perfectly complemented each
+              course.
+            </p>
+            <p>-Nicole</p>
+            <img src="images/rating2.png" alt="" />
+          </div>
+          <div class="review-items">
+            <img src="images/customer3.jpg" alt="" />
+            <p>
+              <b>Foodie Paradise!</b> <br />Took the kids to The Noodle House this
+              weekend, and it was a hit! The portions are generous, and the
+              service was attentive without being overbearing. Definitely
+              recommend for a casual family meal.
+            </p>
+            <p>-Sherry</p>
+            <img src="images/rating.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
