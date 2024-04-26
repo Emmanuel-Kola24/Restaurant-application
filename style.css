@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
   }
-  .nav_section items a{
+  .nav_section_items a{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -111,4 +111,11 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     color: rgb(196, 137, 137);
+}
+.prod_grid{
+  display: grid;
+  width: 90%;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 30px;
 }
