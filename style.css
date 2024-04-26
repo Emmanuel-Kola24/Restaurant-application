@@ -7,6 +7,8 @@
     padding: 10px;
     overflow-x: hidden;
     display: flex;
+    flex-direction: row;
+    text-decoration: none;
   }
   .navigation {
     display: flex;
@@ -17,8 +19,15 @@
     width: 100%;
     background-color: #dfa3a3;
     z-index: 1;
+    flex-direction: row;
+    text-decoration: none;
   }
   .nav_section{
     display: flex;
     flex-direction: row;
+  }
+  .nav_section items a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
   }
